@@ -52,9 +52,12 @@ I am a passionate **AI Engineer** and **Computer Vision Specialist** with expert
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 
 ### Additional Skills
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -77,64 +80,74 @@ I am a passionate **AI Engineer** and **Computer Vision Specialist** with expert
 ## 🔥 Featured Projects
 
 ### 🚗 NeuraRoads - ADAS System
-Real-time Advanced Driver Assistance System featuring:
-- YOLOv8 object detection with 95%+ accuracy
-- DeepSORT/ByteTrack multi-object tracking
-- Bird's Eye View distance estimation
-- Deep learning lane detection
-- Real-time inference on GTX 970 (4GB VRAM)
+Built a monocular vision-based Advanced Driver Assistance System integrating YOLOv8 detection, DeepSORT/ByteTrack tracking, BEV-based distance estimation, deep learning lane detection, and rule-based safety alerts optimized for GTX 970 (4GB VRAM). Achieved 95%+ real-time inference accuracy through optimized training and GPU-efficient deployment.
 
-**Tech Stack:** Python, PyTorch, OpenCV, YOLOv8, DeepSORT
+**Key Achievements:**
+- Real-time object detection and tracking at 30+ FPS on constrained hardware
+- BEV transformation for accurate distance estimation
+- Deep learning-based lane detection with safety alerts
+- 95%+ detection accuracy on real-world driving scenarios
+
+**Tech Stack:** Python, PyTorch, YOLOv8, DeepSORT, ByteTrack, OpenCV
 
 ---
 
 ### 🎙️ AI Voice Automation System
-Production-grade conversational AI replacing traditional call centers:
-- Real-time speech-to-text using Whisper
-- LLaMA-powered natural language understanding
-- XTTS text-to-speech with voice cloning
-- Sub-5-second response latency
-- 24/7 autonomous operation on RTX 3060
+Designed and developed an AI-powered voice automation system replacing physical call center agents for customer support and order booking. Implemented Whisper, LLaMA, and XTTS for real-time conversational intelligence, running entirely on local infrastructure without paid third-party APIs. Optimized inference pipelines to achieve low-latency responses (as low as 5 seconds) and deployed 24/7/365 live services on RunPod.
 
-**Tech Stack:** Whisper, LLaMA, XTTS, Docker, REST APIs, RunPod
+**Key Achievements:**
+- Built scalable voice-based pipelines supporting complex multi-turn conversations
+- Trained models using real recorded customer calls for enhanced tone recognition
+- Integrated voice cloning to deliver human-like customer interactions
+- Engineered complete system locally on NVIDIA RTX 3060 (12GB) using REST APIs and Docker
+- Performed continuous runtime optimization with complete technical documentation
+
+**Tech Stack:** Whisper, LLaMA, XTTS, Docker, REST APIs, RunPod, NVIDIA RTX 3060
 
 ---
 
-### 🏠 Roofinity - Fake Property Detector
-AI-powered system to detect manipulated real estate images:
-- Transfer learning with EfficientNetB0
-- 92%+ validation accuracy
-- TensorFlow Lite mobile deployment
-- On-device inference for privacy
+### 🏠 Roofinity - Fake Property Detection
+Developed a fake property image detection system using EfficientNetB0, transfer learning, and TensorFlow Lite for on-device mobile inference. Achieved 92%+ validation accuracy in detecting AI-generated and manipulated real estate images.
 
-**Tech Stack:** TensorFlow, Keras, EfficientNet, TensorFlow Lite
+**Key Achievements:**
+- Transfer learning with data augmentation for robust model
+- 92%+ validation accuracy on diverse property images
+- Mobile optimization using TensorFlow Lite
+- 80% latency reduction compared to cloud-based solutions
+- On-device inference for privacy and speed
+
+**Tech Stack:** TensorFlow, Keras, EfficientNetB0, TensorFlow Lite, Python
 
 ---
 
 ### 💬 PropertyAssist - Real Estate Chatbot
-Intelligent chatbot for real estate customer service:
-- Intent-driven conversation flow
-- Automated property recommendations
-- 70% reduction in response time
-- Seamless CRM integration
+Built an intent-driven customer dealing chatbot for real estate businesses, improving response efficiency and reducing manual workload. The system automates customer inquiries, property recommendations, and appointment scheduling.
 
-**Tech Stack:** NLP, Python, FastAPI, Transformers
+**Key Achievements:**
+- Intent-driven conversation flow with context understanding
+- Automated property matching based on customer requirements
+- 70% reduction in customer response time
+- Seamless integration with existing CRM systems
+- Natural language understanding for complex queries
+
+**Tech Stack:** NLP, Python, Transformers, FastAPI, Natural Language Processing
 
 ## 💼 Professional Highlights
 
-✨ **Production AI Deployment** - Architected and deployed autonomous AI systems serving 1000+ daily interactions  
-⚡ **Performance Optimization** - Achieved 30+ FPS real-time inference on constrained hardware through advanced optimization  
-🌍 **International Clientele** - Delivered AI solutions to clients in Hong Kong and Dubai  
-📚 **Technical Documentation** - Authored comprehensive system documentation for knowledge transfer and scalability  
-🎓 **Continuous Learning** - Constantly exploring cutting-edge AI research and integrating into production systems
+✨ **Production AI Deployment** - Architected and deployed autonomous AI voice system handling 1000+ customer interactions daily with 98%+ uptime  
+⚡ **Performance Optimization** - Achieved real-time computer vision inference (30+ FPS) on resource-constrained hardware (GTX 970) through advanced optimization techniques  
+🌍 **International Clientele** - Delivered AI solutions to international clients across Hong Kong and Dubai  
+📉 **Cost Reduction** - Reduced operational costs by 60% through intelligent automation, replacing manual processes with AI-driven workflows  
+📚 **Technical Excellence** - Published comprehensive technical documentation enabling seamless knowledge transfer and system maintenance
 
 ## 📈 Key Metrics
 
 - **Models Deployed:** 10+ production AI models
-- **Inference Optimization:** 80% latency reduction through quantization and TensorRT
+- **Inference Optimization:** 80% latency reduction through quantization and optimization
 - **Cost Savings:** 60% operational cost reduction through AI automation
 - **System Uptime:** 98%+ for deployed AI services
 - **International Projects:** 5+ across UAE and Hong Kong
+- **Detection Accuracy:** 95%+ on real-time computer vision tasks
 
 ### ✍️ Random Dev Quote
 
